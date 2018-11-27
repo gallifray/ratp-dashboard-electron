@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "ratp-dashboard",
+  "version": "0.6.0",
+  "description": "A realtime traffic information dashboard for public transport in Paris (RATP)",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -18,5 +18,9 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^3.0.7"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jsdom": "^13.0.0"
   }
 }
